@@ -1,4 +1,4 @@
-As of now, there is currently no dev, no discord with original devs, no twitter, and the bitcointalk ANN page has been locked. The only available active community is currently telegram, a new discord has been created here https://discord.gg/PJv55SD . 
+As of now, there is currently no dev, no discord with original devs, no twitter, and the bitcointalk ANN page has been locked. The only available active community is currently telegram, a new discord has been created here https://discord.gg/PJv5SSD . 
 
 
 # Kingston [KGX]
