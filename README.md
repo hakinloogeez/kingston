@@ -1,4 +1,4 @@
-As of now, there is currently no dev, no discord with original devs, no twitter, and the bitcointalk ANN page has been locked. The only available active community is currently telegram, a new discord has been created here https://discord.gg/PJv5SSD . 
+The original versions released by original dev has an issue where "Staking Is Not Active". Staking was supposed to activate after block 86,401. This didn't occur. I have committed a few changes to the code here, but have neither tested nor compiled it for testing. This version of code here, on GitHub is no longer the original and may or may not function as originally planned. As with any edited code, use it at your own risk and test it BEFORE you load your wallet.dat into it. As of now, there is currently no dev, no discord with original devs, no twitter, and the bitcointalk ANN page has been locked. The only available active community is currently telegram, a new discord has been created here https://discord.gg/PJv5SSD . 
 
 
 # Kingston [KGX]
