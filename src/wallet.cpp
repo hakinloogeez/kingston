@@ -1527,7 +1527,7 @@ static void ApproximateBestSubset(vector<pair<CAmount, pair<const CWalletTx*, un
                 if (nPass == 0 ? insecure_rand() & 1 : !vfIncluded[i]) {
                     nTotal += vValue[i].first;
                     vfIncluded[i] = true;
-                    if (nTotal >= nTargetValue) {
+                   if (nTotal >= nTargetValue) {
                         fReachedTarget = true;
                         if (nTotal < nBest) {
                             nBest = nTotal;
@@ -1563,7 +1563,7 @@ bool less_then_denom(const COutput& out1, const COutput& out2)
 bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int> >& setCoins, int64_t nTargetAmount) const
 {
     vector<COutput> vCoins;
-    AvailableCoins(vCoins, true);
+    AvailableCoins(vCoins, true, NULL, false, STAKABLE_COINS);
     int64_t nAmountSelected = 0;
 
     BOOST_FOREACH (const COutput& out, vCoins) {
