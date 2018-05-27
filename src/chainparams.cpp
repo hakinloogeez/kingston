@@ -53,7 +53,7 @@ static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1519956858, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
-                //   (the tx=... number in the SetBestChain debug.log lines)
+	//   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -97,6 +97,7 @@ public:
         nLastPOWBlock = 518400;
         nMaturity = 60;
         nModifierUpdateBlock = 1;
+	nPOSStartBlock = 86401;
 	
 
 	const char* pszTimestamp = "Dixicoin Official Release";
